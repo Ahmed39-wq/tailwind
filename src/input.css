@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.outer-oval1 {
+  @apply w-[198px] h-[203px] rounded-full absolute top-0;
+}
+
+.outer-oval2 {
+  @apply w-[198px] h-[194px] rounded-full flex justify-center items-center;
+}
+
+.outer-oval3 {
+  @apply w-[152px] h-[152px] rounded-full;
+}
+
+.outer-oval4 {
+  @apply w-[152px] h-[144px] rounded-full mt-[8px] flex justify-center items-center;
+}
+
+.btn {
+  @apply absolute right-8 bottom-8;
+}
